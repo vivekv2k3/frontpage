@@ -1,0 +1,57 @@
+/* App.css (or your preferred CSS file) */
+body {
+  background-color: #1B1B1E; /* Set the background color for the entire app */
+  margin: 10px; /* Remove default body margin */
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  overflow: hidden;
+}
+
+.doer-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #58A4B0; /* Change text color to white */
+  margin-left: .62cm;
+}
+
+.profile-button {
+  margin-top: 1.5cm;
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: #1B1B1E; /* Set the text color to match the background */
+  border: none;
+  border-radius: 50px;
+  cursor: pointer ;
+  font-size: 16px;
+}
+
+.dashboard-button:hover,
+.calendar-button:hover,
+.settings-button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.dashboard-button,
+.calendar-button,
+.settings-button{
+  margin-top: 35px;
+  padding: 10px 20px;
+  background-color: #1B1B1E;
+  color: #0000e5; /* Set the text color to match the background */
+  border: none;
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.logout-button{
+  margin-top: 10cm;
+  padding: 10px 20px;
+  background-color: #1B1B1E;
+  color: #0000e5; /* Set the text color to match the background */
+  border: none;
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
