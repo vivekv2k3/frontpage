@@ -31,7 +31,7 @@ body {
 .settings-button:hover {
   background-color: #000000;
   color: #fff;
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .dashboard-button,
